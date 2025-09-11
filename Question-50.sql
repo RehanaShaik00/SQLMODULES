@@ -79,3 +79,5 @@ AND reaction_date BETWEEN prescription_date AND DATE_FORMAT(DATE_ADD(prescriptio
 GROUP BY m.medication_name
 ORDER BY m.medication_name ASC
 
+
+
